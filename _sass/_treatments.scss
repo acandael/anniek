@@ -1,0 +1,25 @@
+.section-treatments {
+  margin-top: 20rem;
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.2rem;
+  }
+
+  .treatment {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    padding: 0 2.4rem;
+
+    &__img {
+      border-radius: 100%;
+    }
+
+    &__title {
+      margin-top: 3.2rem;
+    }
+  }
+}

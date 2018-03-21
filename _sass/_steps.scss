@@ -1,0 +1,29 @@
+.section-steps {
+  display: flex;
+  justify-content: space-between;
+
+
+  .step {
+    width: 30%;
+    //background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1.6rem;
+
+    &__title-h2 {
+      text-align: center;
+    }
+
+    &__title-h3 {
+      text-align: center;
+      margin-top: 3.2rem;
+    }
+
+    &__img {
+      border-radius: 100%;
+      border: 2px solid $color-action;
+    }
+  }
+}

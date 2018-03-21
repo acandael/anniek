@@ -1,0 +1,16 @@
+.section-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem 10rem;
+
+  .content {
+    width: 40vw;
+    padding: 0 4rem;
+  }
+
+  img.about {
+    height: 50vh;
+    border-radius: 100%;
+  }
+}

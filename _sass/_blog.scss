@@ -1,0 +1,18 @@
+.section-blog {
+  display: flex;
+  justify-content: space-between;
+  margin: 7.2rem auto;
+
+  .blogpost {
+    width: 30%;
+    padding: 0 1.6rem;
+
+    &__img {
+      margin-bottom: 2.4rem;
+    }
+
+    &__title {
+      margin-top: 1.6rem;
+    }
+  }
+}

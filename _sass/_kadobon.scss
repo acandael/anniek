@@ -1,0 +1,33 @@
+.section-kadobon {
+  margin-bottom: 14.4rem auto;
+  padding-bottom: 11.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .kadobon {
+
+    &__title {
+      margin-top: 6.4rem;
+    }
+
+    &__p {
+      margin-top: 4.8rem;
+    }
+
+    &__btn {
+      margin-top: 8rem;
+      margin-bottom: 14.4rem;
+      background-color: $color-action;
+      color: $color-white;
+      width: 15vw;
+      padding: 1.6rem;
+      border-radius: 5px;
+      font-size: 1.6rem;
+    }
+  }
+
+  img {
+    margin-top: 14.4rem;
+  }
+}

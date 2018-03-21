@@ -1,0 +1,15 @@
+.section-brands {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9.6rem;
+  margin-bottom: 11.2rem;
+
+  .brand {
+    width: 33%;
+    padding: 0 1.6rem;
+  }
+}
+
+.skin-wizard {
+  text-align: right;
+}
