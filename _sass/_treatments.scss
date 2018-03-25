@@ -1,9 +1,16 @@
 .section-treatments {
   margin-top: 20rem;
+
+  @media only screen and (max-width: $bp-mobile) {
+    margin-top: 10rem;
+  }
   .row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3.2rem;
+    @media only screen and (max-width: $bp-medium) {
+      flex-direction: column;
+    }
   }
 
   .treatment {
@@ -14,12 +21,31 @@
     width: 33%;
     padding: 0 2.4rem;
 
+    @media only screen and (max-width: $bp-medium) {
+      width: 100%;
+    }
+
+    @media only screen and (max-width: $bp-mobile) {
+      margin-top: 2.4rem;
+    }
+
     &__img {
       border-radius: 100%;
+      @media only screen and (max-width: $bp-large) {
+        width: 80%;
+        height: 50%;
+      }
+      @media only screen and (max-width: $bp-medium) {
+        width: 25vw;
+      }
     }
 
     &__title {
       margin-top: 3.2rem;
+
+      @media only screen and (max-width: $bp-mobile) {
+        margin-top: 1.6rem;
+      }
     }
   }
 }

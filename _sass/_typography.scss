@@ -1,19 +1,39 @@
 .bodytext {
   font-size: 1.6rem;
   color: $color-grey-dark;
+  margin-top: 0;
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 1.2rem;
+  }
 }
 
 h2 {
   font-size: 2.4rem;
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 1.8rem;
+  }
+
+  @media only screen and (max-width: $bp-mobile) {
+    font-size: 1.6rem;
+  }
 }
 
 h3 {
   font-size: 1.6rem;
   color: $color-action;
+
+  @media only screen and (max-width: $bp-mobile) {
+    font-size: 1.2rem;
+  }
 }
 
 .readmore {
   color: $color-action;
   //font-weight: 700;
   font-size: 1.6rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 1.2rem;
+  }
 }

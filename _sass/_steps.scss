@@ -2,6 +2,11 @@
   display: flex;
   justify-content: space-between;
 
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+    margin-top: 3.2rem;
+  }
+
 
   .step {
     width: 30%;
@@ -12,6 +17,15 @@
     flex-direction: column;
     padding: 0 1.6rem;
 
+    @media only screen and (max-width: $bp-large) {
+      padding: 0 1rem;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      width: 100%;
+      padding: 2rem 2rem;
+    }
+
     &__title-h2 {
       text-align: center;
     }
@@ -19,11 +33,26 @@
     &__title-h3 {
       text-align: center;
       margin-top: 3.2rem;
+      @media only screen and (max-width: $bp-medium) {
+        margin-top: 2.4rem;
+      }
+      @media only screen and (max-width: $bp-mobile) {
+        margin-top: 1.2rem;
+      }
     }
 
     &__img {
       border-radius: 100%;
       border: 2px solid $color-action;
+
+      @media only screen and (max-width: $bp-large) {
+        width: 80%;
+        height: 50%;
+      }
+
+      @media only screen and (max-width: $bp-medium) {
+        width: 25vw;
+      }
     }
   }
 }

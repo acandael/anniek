@@ -1,15 +1,4 @@
-html {
-  box-sizing: border-box;
-  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
-}
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-
-  padding: 2rem 5rem;
-}
 
 // Color variables
 $color-grey-light: #9B9B9B;
@@ -17,3 +6,9 @@ $color-grey-light2: #DFDBDB;
 $color-grey-dark: #4A4A4A;
 $color-action: #EE7C98;
 $color-white: #FFFFFF;
+
+// Breakpoints
+$bp-largest: 74.5em; // 1200px
+$bp-large: 68.62em; // 1098px
+$bp-medium: 50em; // 800px
+$bp-mobile: 23.43em; // 375px
