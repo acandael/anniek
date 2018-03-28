@@ -30,3 +30,36 @@ main {
     padding: 0 1.6rem;
   }
 }
+
+header.page {
+  margin-top: 6.4rem;
+  h1 {
+    text-align: center;
+  }
+}
+
+section.page {
+  //display: flex;
+  //flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12.4rem;
+
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 12.4rem;
+    .content {
+      width: 35vw;
+      h2 {
+        margin-top: 0;
+      }
+    }
+
+    aside.sidebar {
+        width: 40vw;
+    }
+  }
+
+}

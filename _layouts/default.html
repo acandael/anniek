@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="/css/main.css">
+
 </head>
 <body>
   {% include header.html %}
@@ -9,5 +10,22 @@
   {{ content }}
   </main>
   {% include footer.html %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  var menuToggle = $("#js-mobile-menu").unbind();
+  $("#js-navigation-menu").removeClass("show");
+
+  menuToggle.on("click", function(e) {
+    e.preventDefault();
+    $("#js-navigation-menu").slideToggle(function(){
+      if($("#js-navigation-menu").is(":hidden")) {
+        $("#js-navigation-menu").removeAttr("style");
+      }
+    });
+  });
+});
+</script>
 </body>
 </html>
