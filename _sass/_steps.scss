@@ -33,6 +33,7 @@
     &__title-h3 {
       text-align: center;
       margin-top: 3.2rem;
+
       @media only screen and (max-width: $bp-medium) {
         margin-top: 2.4rem;
       }
@@ -43,7 +44,13 @@
 
     &__img {
       border-radius: 100%;
-      border: 2px solid $color-action;
+      border: 2px solid $color-grey-light2;
+      transition: border .2s;
+
+      &:hover {
+        border: 3px solid $color-action;
+        cursor: pointer;
+      }
 
       @media only screen and (max-width: $bp-large) {
         width: 80%;
@@ -53,6 +60,10 @@
       @media only screen and (max-width: $bp-medium) {
         width: 25vw;
       }
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 }
