@@ -31,6 +31,14 @@
 
     &__img {
       border-radius: 100%;
+      border: 2px solid $color-grey-light2;
+      transition: border .2s;
+
+      &:hover {
+        border: 3px solid $color-action;
+        cursor: pointer;
+      }
+      
       @media only screen and (max-width: $bp-large) {
         width: 80%;
         height: 50%;
@@ -46,6 +54,10 @@
       @media only screen and (max-width: $bp-mobile) {
         margin-top: 1.6rem;
       }
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 }
