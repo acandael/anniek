@@ -10,3 +10,45 @@ button.cta {
     cursor: pointer;
   }
 }
+
+header.page {
+  margin-top: 6.4rem;
+  h1 {
+    text-align: center;
+  }
+  p.subtitle {
+    text-align: center;
+    color: $color-action;
+    font-size: 1.6rem;
+  }
+}
+
+// PRICELIST
+table.pricelist {
+  border-top: 2px solid $color-grey-light2;
+  border-bottom: 2px solid $color-grey-light2;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+
+  @media only screen and (max-width: $bp-mobile) {
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+  }
+  caption {
+    padding-bottom: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  td {
+    font-size: 1.6rem;
+  }
+
+  tfoot {
+
+    td {
+      padding-top: 2.4rem;
+      font-size: 1.2rem;
+    }
+  }
+}
