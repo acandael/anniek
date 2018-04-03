@@ -93,9 +93,11 @@ section.page {
         padding-left: 0;
         margin-top: 3.2rem;
 
+
         li {
           line-height: 3rem;
           font-size: 1.2rem;
+
         }
 
         &__icon {
@@ -106,6 +108,10 @@ section.page {
           margin-right: 1.2rem;
         }
 
+      }
+      button.cta {
+        width: 100%;
+        font-size: 1.6rem;
       }
     }
 
@@ -133,11 +139,11 @@ section.page {
           }
         }
 
-        @media only screen and (max-width: $bp-medium) {
+        @media only screen and (max-width: $bp-mobile) {
           width: 100%;
           img.sidebar__img {
             margin-bottom: 2.4rem;
-            width: 80%;
+            width: 100%;
           }
         }
     }
