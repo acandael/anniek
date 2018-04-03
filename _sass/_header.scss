@@ -62,7 +62,7 @@
         //padding-left: 1.6rem;
 
         li {
-          line-height: 2.4rem;
+          line-height: 3.2rem;
         }
       }
 
@@ -90,13 +90,13 @@
         align-items: baseline;
         justify-content: flex-start;
         padding-left: 1.6rem;
-        line-height: 2.4rem;
+        line-height: 3.2rem;
       }
 
       a {
         color: $color-grey-light;
         font-weight: 400;
-        font-size: 1.2rem;
+        font-size: 1.6rem;
 
         &:hover {
           color: $color-action;
@@ -111,8 +111,8 @@
       transition: fill 0.2s;
 
       @media only screen and (max-width: $bp-mobile) {
-        height: 2rem;
-        width: 2rem;
+        height: 2.4rem;
+        width: 2.4rem;
       }
       &:hover {
         fill: $color-action;
@@ -144,7 +144,7 @@ a.navigation-menu-button {
     color: $color-grey-dark;
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 }
 
