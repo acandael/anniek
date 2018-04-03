@@ -2,9 +2,6 @@
   font-size: 1.6rem;
   color: $color-grey-dark;
   margin-top: 0;
-  @media only screen and (max-width: $bp-medium) {
-    font-size: 1.2rem;
-  }
 }
 
 h2 {
