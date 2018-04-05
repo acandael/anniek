@@ -5,6 +5,7 @@ button.cta {
   padding: 1rem 3rem;
   border-radius: 3px;
   transition: background-color, .2s;
+  font-size: 1.6rem;
   &:hover {
     background-color: $color-action-light;
     cursor: pointer;
