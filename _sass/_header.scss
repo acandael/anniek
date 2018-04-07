@@ -131,13 +131,12 @@ nav {
 
 a.navigation-menu-button {
   display: block;
-  @media only screen and (min-width: $bp-large) {
-    display: none;
-  }
-
   @media only screen and (min-width: $bp-medium) {
     display: none;
   }
+
+
+
   @media only screen and (max-width: $bp-mobile) {
     padding-left: 1.6rem;
     color: $color-grey-dark;
@@ -156,18 +155,14 @@ ul.navigation-menu {
     width: 100%;
     z-index: 9999;
 
-    @media only screen and (min-width: $bp-large) {
+    &.show {
       display: inline;
-      margin: 0;
-      padding: 0;
     }
 
     @media only screen and (min-width: $bp-medium) {
-      display: flex;
-    }
-
-    &.show {
-      //display: inline;
+      display: inline;
+      margin: 0;
+      padding: 0;
     }
   }
 
@@ -178,7 +173,7 @@ ul.navigation-menu {
     z-index: 9999;
 
 
-    @media only screen and (min-width: $bp-large) {
+    @media only screen and (min-width: $bp-medium) {
       background: transparent;
       display: inline;
       text-decoration: none;
