@@ -27,13 +27,15 @@
       flex-direction: column;
     }
 
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (min-width: $bp-small)
+
+      {
       li:not(:last-child) {
-        margin-right: 1rem;
+        margin-right: .8rem;
       }
     }
 
-    @media only screen and (max-width: $bp-large) {
+    @media only screen and (min-width: $bp-large) {
       li:not(:last-child) {
         margin-right: 2rem;
       }
@@ -47,7 +49,17 @@
       padding-bottom: .5rem;
       }
 
-    @media only screen and (max-width: $bp-large) {
+    @media only screen and (max-width: $bp-small) {
+
+      li {
+        //margin-right: 1.2rem;
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    @media only screen and (max-width: $bp-medium) {
 
       li {
         //margin-right: 1.2rem;
