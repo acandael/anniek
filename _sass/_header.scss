@@ -27,8 +27,16 @@
       flex-direction: column;
     }
 
-    li:not(:last-child) {
-      margin-right: 2rem;
+    @media only screen and (max-width: $bp-small) {
+      li:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+
+    @media only screen and (max-width: $bp-large) {
+      li:not(:last-child) {
+        margin-right: 2rem;
+      }
     }
 
     a {
@@ -123,11 +131,6 @@
 
 nav {
   z-index: 9999999;
-
-  @media only screen and (max-width: $bp-large) {
-    flex: 1;
-  }
-
 }
 
 a.navigation-menu-button {
@@ -138,6 +141,10 @@ a.navigation-menu-button {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.6rem;
+  }
+
+  @media only screen and (min-width: $bp-small) {
+    display: none;
   }
 
   @media only screen and (min-width: $bp-medium) {
@@ -158,6 +165,12 @@ ul.navigation-menu {
       display: inline;
     }
 
+    @media only screen and (min-width: $bp-small) {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+
     @media only screen and (min-width: $bp-medium) {
       display: inline;
       margin: 0;
@@ -171,7 +184,7 @@ ul.navigation-menu {
     //width: 100%;
     z-index: 9999;
 
-    @media only screen and (min-width: $bp-medium) {
+    @media only screen and (min-width: $bp-small) {
       background: transparent;
       display: inline;
       text-decoration: none;
