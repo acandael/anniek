@@ -135,10 +135,10 @@ section.page {
         }
 
         @media only screen and (max-width: $bp-medium) {
-          width: 30%;
+          width: 70%;
           img.sidebar__img {
             margin-bottom: 2.4rem;
-            width: 80%;
+            //width: 80%;
           }
         }
 

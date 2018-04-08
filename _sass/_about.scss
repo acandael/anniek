@@ -25,10 +25,16 @@
 
   img.about {
     height: 50vh;
-    border-radius: 100%;
+    border-radius: 50%;
 
     @media only screen and (max-width: $bp-medium) {
-      height: 40vh;
+      width: 75%;
+      height: 75%;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      width: 50%;
+      height: 50%;
     }
   }
 }
