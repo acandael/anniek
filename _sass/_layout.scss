@@ -64,7 +64,6 @@ section.page {
       }
 
       @media only screen and (max-width: $bp-medium) {
-        width: 70%;
         margin-bottom: 2.4rem;
       }
 
@@ -134,7 +133,7 @@ section.page {
         }
 
         @media only screen and (max-width: $bp-medium) {
-          width: 70%;
+          //width: 70%;
           img.sidebar__img {
             margin-bottom: 2.4rem;
             //width: 80%;
