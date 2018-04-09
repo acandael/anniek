@@ -61,6 +61,16 @@
       }
     }
 
+    @media only screen and (max-width: $bp-medium) {
+
+      li {
+        //margin-right: 1.2rem;
+        a {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
     &.primary {
       text-transform: uppercase;
       margin-bottom: 0;
