@@ -1,12 +1,21 @@
 .section-brands {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 9.6rem;
-  margin-bottom: 11.2rem;
+  margin-top: 20rem;
+  h1 {
+    text-align: center;
+    font-size: 2.4rem;
+  }
+}
 
-  @media only screen and (max-width: $bp-medium) {
-    flex-direction: column;
-    align-items: center;
+  .brands {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9.6rem;
+    margin-bottom: 11.2rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   .brand {
@@ -35,7 +44,7 @@
       width: 50vw;
     }
   }
-}
+
 
 .skin-wizard {
   text-align: right;
