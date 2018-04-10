@@ -26,7 +26,8 @@
   img.about {
     border-radius: 50%;
     @media only screen and (max-width: $bp-mobile) {
-      width: 75%;
+      width: 85%;
+      height: 85%;
     }
   }
 }
