@@ -1,6 +1,8 @@
 ---
-layout: post
+layout: default
 title:  "Welcome to Jekyll!"
+image: /images/the-start-to-vitamin-a.png
+alt: environ the start to vitamin a
 date:   2018-03-11 10:16:15 +0100
 categories: jekyll update
 ---

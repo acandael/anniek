@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<header class="page">
+  <h1>SKIN NEWS</h1>
+</header>
+<section class="section-blog">
+  {% for post in site.posts %}
+  <div class="blogpost">
+    <img class="blogpost__img" src="{{ post.image }}" alt="{{ post.alt }}">
+    <h3 class="blogpost__title"><a class="action" href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p class="blogpost__p bodytext">{{ post.excerpt }}</p>
+    <a class="blogpost__link readmore" href="{{ post.url }}">Lees meer &hellip;</a>
+  </div>
+  {% endfor %}
+</section>

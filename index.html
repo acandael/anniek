@@ -116,23 +116,12 @@ pijnloze wijze.</p>
     </section>
     <p class="skin-wizard bodytext">Kan je niet wachten tot je afspraak? Doe alvast de <a href="#">Helene V Skin Wizard</a> en ontdek welke producten best bij jou huid passen</p>
     <section class="section-blog">
+      {% for post in site.posts limit:3 %}
       <div class="blogpost">
-        <img class="blogpost__img" src="images/clo-clo.png" alt="clo clo">
-        <h3 class="blogpost__title">Clo Clo: mijn dagelijkse make-up
-routine</h3>
-        <p class="blogpost__p bodytext">Heb je het druk en weinig tijd? Ik ken het gevoel! Net zoals veel mensen leid ik een busy leven en probeer ik mijn tijd efficiënt in te delen. Zo doe ik dat niet alleen met mijn werk, vrije tijd en sport, maar ook met mijn dagelijkse make-up routine.</p>
-        <a class="blogpost__link readmore">Lees meer &hellip;</a>
+        <img class="blogpost__img" src="{{ post.image }}" alt="clo clo">
+        <h3><a  class="action" href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="bodytext">{{ post.excerpt }}</p>
+        <a class="bodytext action" href="{{ post.url }}">Lees meer &hellip;</a>
       </div>
-      <div class="blogpost">
-        <img class="blogpost__img" src="images/steffi-vertriest.png" alt="Steffi Vertriest">
-        <h3 class="blogpost__title">Steffi Vertriest: 6 x fruit voor een mooie huid</h3>
-        <p class="blogpost__p bodytext">OK nee, de titel is eigenlijk een beetje gelogen… In deze post ga ik het niet enkel over fruit hebben maar ook over andere voedingsmiddelen die goed voor je huid zijn. Maar het klonk gewoon zo goed die titel! </p>
-        <a class="blogpost__link readmore">Lees meer &hellip;</a>
-      </div>
-      <div class="blogpost">
-        <img class="blogpost__img" src="images/martine-prenen.jpg" alt="Martine Prenen">
-        <h3 class="blogpost__title">Martine Prenen: op bezoek bij Hélène V.</h3>
-        <p class="blogpost__p bodytext">Of ik een stukje wilde schrijven voor de blog van mijn favoriete verzorgingsproducten? Ja, graag! Maar met slechts 500 woorden is dat een moeilijke opdracht.</p>
-        <a class="blogpost__link readmore">Lees meer &hellip;</a>
-      </div>
+      {% endfor %}
     </section>
