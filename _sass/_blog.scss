@@ -1,5 +1,6 @@
 .section-blog {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 7.2rem auto;
 
@@ -10,7 +11,8 @@
 
   .blogpost {
     width: 30%;
-    padding: 0 1.6rem;
+    padding: 1.6rem 1.6rem;
+    margin-bottom: 6.4rem;
 
 
     @media only screen and (max-width: $bp-medium) {
