@@ -1,17 +1,14 @@
 ---
 layout: post
-image: /images/the-start-to-vitamin-a.png
+image: /images/youth-essentia-actie.png
 alt: environ the start to vitamin a
 title: Environ - The start to vitamin A
 ---
 
-We moeten je niet meer overtuigen: **vitamine A** is cruciaal voor een **gezonde huid**.
-En we willen een gezonde, stralende huid voor iedereen.
+# Promo: &euro;50 Voordeel
 
-Bied je klanten die nu willen opstarten met het Environ Skin EssentiA of Youth EssentiA Step-up SystemTM 15% voordeel.
+Bij aankoop van een Youth Essentia
 
-Opgelet: Dit is een éénmalige actie geldig tot 27/4/18 of zolang de voorraad strekt.
+Reiniger, Toner en Dynamisch Duo met Vitamine A
 
-Healthy & happy groeten,
-
-Het Hélène V.-team
+![Youth Essentia](/images/promo-ye.png "Logo Title Text 1")
