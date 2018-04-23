@@ -5,15 +5,20 @@ alt: Jane Iredale Lemon Lift
 title:  Jane Iredale Lemon Lift
 ---
 
-Ontdek onze nieuwe, verfrissende **HandDrink Hand Cream** met SPF 15 met een aromatisch Lemongrass extract.
+## Product in de kijker
 
-Klik [hier](/documents/sell-sheet-lemonlift-summer.pdf) om de infofiche te downloaden.
+### Lemongrass Love Hydration
+Spray & Mini (limited edition)
 
-![Lemongrass Love Hydration Spray](/images/lemongrass-hydration-spray.jpg "Logo Title Text 1")
+Kies voor een **gezonde** en **gehydrateerde** huid
 
-In mei en juni zetten we Lemongrass Love Hydration Spray in de kijker met een leuke actie.
+Lemongrass Love Hydration Spray Mini
 
-Koop een **Lemongrass Love Hydration Spray** 90 ml en krijg er een mini-versie bij.
-Vanaf nu is Lemongrass Love ook in Refill verkrijgbaar, zowel voor jou als voor je klanten.
+* Hydrateert, verzorgt en beschermt alle huidtypes
+* Laat de huid er fris en zacht uitzien
+* Vermindert het aanzien van porien
+* Houdt een vette huid onder controle
+* Fixeert je mineral make-up
 
-Actie geldig in mei en juni 2018 of zolang de voorraad strekt
+**ACTIE**. Koop een 90ml Lemongrass Love Hydration Spray
+en krijg er een mini gratis bij.
