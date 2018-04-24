@@ -117,7 +117,7 @@ klanten die reeds Environ dagelijks gebruiken.</p>
     <section class="section-blog">
       {% for post in site.posts limit:3 %}
       <div class="blogpost">
-        <img class="blogpost__img" src="{{ post.image }}" alt="clo clo">
+        <a href="{{ post.url }}"><img class="blogpost__img" src="{{ post.image }}" alt="{{ post.alt }}"></a>
         <h3><a  class="action" href="{{ post.url }}">{{ post.title }}</a></h3>
         <p class="bodytext">{{ post.excerpt }}</p>
         <a class="bodytext action" href="{{ post.url }}">Lees meer &hellip;</a>
