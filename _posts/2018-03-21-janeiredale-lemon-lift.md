@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /images/jane-iredale-lemon-lift.jpg
+image: /images/lemongrass-love-actie.jpg
 alt: Jane Iredale Lemon Lift
 title:  Jane Iredale Lemon Lift
 ---
