@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
 
-  @media only screen and (max-width: $bp-mobile) {
+  @media only screen and (max-width: $bp-small) {
     height: 100%;
     flex-direction: column;
     justify-content: space-around;
@@ -23,16 +23,8 @@
     display: flex;
     flex-direction: row;
 
-    @media only screen and (max-width: $bp-mobile) {
+    @media only screen and (max-width: $bp-small) {
       flex-direction: column;
-    }
-
-    @media only screen and (min-width: $bp-small)
-
-      {
-      li:not(:last-child) {
-        margin-right: .5rem;
-      }
     }
 
     @media only screen and (min-width: $bp-large) {
@@ -60,21 +52,11 @@
       }
     }
 
-    @media only screen and (max-width: $bp-medium) {
-
-      li {
-        //margin-right: 1.2rem;
-        a {
-          font-size: 1.1rem;
-        }
-      }
-    }
-
     &.primary {
       text-transform: uppercase;
       margin-bottom: 0;
 
-      @media only screen and (max-width: $bp-mobile) {
+      @media only screen and (max-width: $bp-small) {
         //padding-left: 1.6rem;
 
         li {
@@ -148,7 +130,7 @@ nav {
 
 a.navigation-menu-button {
 
-  @media only screen and (max-width: $bp-mobile) {
+  @media only screen and (max-width: $bp-small) {
     padding-left: 1.6rem;
     color: $color-grey-dark;
     text-decoration: none;
@@ -156,13 +138,10 @@ a.navigation-menu-button {
     font-size: 1.6rem;
   }
 
-  @media only screen and (min-width: $bp-small) {
-    display: none;
-  }
-
   @media only screen and (min-width: $bp-medium) {
     display: none;
   }
+
 }
 
 ul.navigation-menu {
@@ -176,12 +155,6 @@ ul.navigation-menu {
 
     &.show {
       display: inline;
-    }
-
-    @media only screen and (min-width: $bp-small) {
-      display: inline;
-      margin: 0;
-      padding: 0;
     }
 
     @media only screen and (min-width: $bp-medium) {
