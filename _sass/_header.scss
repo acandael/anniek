@@ -50,23 +50,22 @@
       }
 
 
-
-    @media only screen and (max-width: $bp-small) {
-
-      li {
-        //margin-right: 1.2rem;
-        a {
-          font-size: 1.1rem;
-        }
-      }
-    }
-
     @media only screen and (max-width: $bp-large) {
 
       li {
         //margin-right: 1.2rem;
         a {
           font-size: 1.4rem;
+        }
+      }
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+
+      li {
+        //margin-right: 1.2rem;
+        a {
+          font-size: 1.1rem;
         }
       }
     }
