@@ -37,6 +37,8 @@ url: "http://www.anniek-lambrecht.be" # the base hostname & protocol for your si
 plugins:
   - jekyll-sitemap
 
+include: _redirects
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
