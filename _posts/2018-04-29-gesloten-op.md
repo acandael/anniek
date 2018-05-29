@@ -3,7 +3,7 @@ layout: post
 image: /images/gesloten-op-600.png
 alt: Skin Coach Anniek Lambrecht is gesloten op
 title: Gesloten op
-published: false
+
 ---
 
 maandag 30 April
