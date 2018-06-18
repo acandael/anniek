@@ -6,6 +6,8 @@ title: Gesloten op
 published: true
 ---
 
-15-16 en 23 juni
+2 juli namiddag
 
-5-6-7 Juli
+5-6-7 juli
+
+21 en 28 juli
