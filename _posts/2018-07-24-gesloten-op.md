@@ -6,8 +6,12 @@ title: Gesloten op
 published: true
 ---
 
-2 juli namiddag
+11 tem 19-8
 
-5-6-7 juli
+25-8
 
-21 en 28 juli
+29-8 tem 2-9
+
+Op 3-9 pas open vanaf 10h30
+
+Vanaf september open van ma tem vrij en de za- zon en feestdagen gesloten
