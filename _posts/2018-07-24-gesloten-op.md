@@ -6,10 +6,6 @@ title: Gesloten op
 published: true
 ---
 
-11 tem 19-8
-
-25-8
-
 29-8 tem 2-9
 
 Op 3-9 pas open vanaf 10h30
