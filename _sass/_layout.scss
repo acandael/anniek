@@ -70,8 +70,13 @@ section.page {
         width: 100%;
         margin-bottom: 2.4rem;
       }
+      .section {
+        margin-bottom: 5rem;
+      }
+
       h2 {
-        margin-top: 2.4rem;
+        margin-top: 0;
+        margin-bottom: .7rem;
         line-height: normal;
       }
 
@@ -81,6 +86,7 @@ section.page {
       p.price {
         font-weight: 700;
         font-size: 1.6rem;
+        margin-top: 0;
       }
 
       p.smalltext {
@@ -91,7 +97,7 @@ section.page {
       .listing {
         list-style-type: none;
         padding-left: 0;
-        margin-top: 3.2rem;
+        margin-top: 1.2rem;
 
 
         li {
