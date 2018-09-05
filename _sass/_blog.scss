@@ -29,6 +29,7 @@
     &__img {
       margin-bottom: 2.4rem;
       width: 100%;
+      min-height: 281px;
       @media only screen and (max-width: $bp-medium) {
         width: 30vw;
         margin-top: 2.4rem;
@@ -51,6 +52,7 @@
 
     &__title {
       margin-top: 1.6rem;
+      text-align: center;
     }
   }
 }
