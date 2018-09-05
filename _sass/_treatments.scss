@@ -16,6 +16,7 @@
   .treatment {
     width: 33%;
     padding: 0 2.4rem;
+    position: relative;
 
     @media only screen and (max-width: $bp-medium) {
       width: 100%;
@@ -26,6 +27,8 @@
     }
 
     &__img {
+      display: block;
+      margin: 0 auto;
       border-radius: 50%;
       box-sizing: border-box;
       border: 2px solid $color-grey-light2;
@@ -49,6 +52,7 @@
 
     &__title {
       margin-top: 3.2rem;
+      text-align: center;
 
       @media only screen and (max-width: $bp-mobile) {
         margin-top: 1.6rem;

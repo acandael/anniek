@@ -19,6 +19,7 @@
 
 
   .step {
+    position: relative;
     width: 30%;
     padding: 0 1.6rem;
 
@@ -50,6 +51,8 @@
     }
 
     &__img {
+      display: block;
+      margin: 0 auto;
       border-radius: 50%;
       border: 2px solid $color-grey-light2;
       box-sizing: border-box;
