@@ -3,7 +3,7 @@ layout: post
 image: /images/open-deur-20sept.jpg
 alt: Open Deur Dag 20 September
 title: Open Deur Dag 20 September
-published: true
+published: false
 ---
 
 ## Unieke Opendeuractie

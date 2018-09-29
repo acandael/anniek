@@ -6,8 +6,14 @@ title: Gesloten op
 published: true
 ---
 
-29-8 tem 2-9
+4-10 Open vanaf 10h15
 
-Op 3-9 pas open vanaf 10h30
+8-10 Pedagogische Studiedag voor de zoon
 
-Vanaf september open van ma tem vrij en de za- zon en feestdagen gesloten
+15-10 Opleidingsdag
+
+24-10 Open vanaf 10h30
+
+31-10/4-11 Verlof
+
+31-12/6-01 Verlof
