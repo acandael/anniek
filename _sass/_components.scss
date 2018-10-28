@@ -1,5 +1,6 @@
-button.cta {
+button.cta, button.cta a {
   margin-top: 2.4rem;
+  text-decoration: none;
   background-color: $color-action;
   color: $color-white;
   padding: 1rem 3rem;
