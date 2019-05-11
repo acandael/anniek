@@ -17,58 +17,57 @@
   }
 }
 
+.step {
+  position: relative;
+  width: 30%;
+  padding: 0 1.6rem;
 
-  .step {
-    position: relative;
-    width: 30%;
-    padding: 0 1.6rem;
+  @media only screen and (max-width: $bp-large) {
+    padding: 0 1rem;
+  }
 
-    @media only screen and (max-width: $bp-large) {
-      padding: 0 1rem;
-    }
+  @media only screen and (max-width: $bp-medium) {
+    width: 100%;
+    padding: 2rem 2rem;
+  }
+
+  &__title-h2 {
+    text-align: center;
+    color: $color-grey-light;
+  }
+
+  &__title-h3 {
+    text-align: center;
+    margin-top: 3.2rem;
 
     @media only screen and (max-width: $bp-medium) {
-      width: 100%;
-      padding: 2rem 2rem;
+      margin-top: 2.4rem;
     }
-
-    &__title-h2 {
-      text-align: center;
-      color: $color-grey-light;
-    }
-
-    &__title-h3 {
-      text-align: center;
-      margin-top: 3.2rem;
-
-      @media only screen and (max-width: $bp-medium) {
-        margin-top: 2.4rem;
-      }
-      @media only screen and (max-width: $bp-mobile) {
-        margin-top: 1.2rem;
-        margin-bottom: .8rem;
-      }
-    }
-
-    &__img {
-      display: block;
-      margin: 0 auto;
-      border-radius: 50%;
-      border: 2px solid $color-grey-light2;
-      box-sizing: border-box;
-      transition: border .2s;
-
-      &:hover {
-        border: 2px solid $color-action;
-        cursor: pointer;
-      }
-
-      @media only screen and (max-width: $bp-large) {
-        width: 75%;
-      }
-    }
-
-    a {
-      text-decoration: none;
+    @media only screen and (max-width: $bp-mobile) {
+      margin-top: 1.2rem;
+      margin-bottom: 0.8rem;
     }
   }
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid $color-grey-light2;
+    box-sizing: border-box;
+    transition: border 0.2s;
+
+    &:hover {
+      border: 2px solid $color-action;
+      cursor: pointer;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+      width: 75%;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
