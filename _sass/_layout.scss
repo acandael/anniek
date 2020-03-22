@@ -8,8 +8,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
 
-  padding: 2rem 5rem;
-
+  padding: 2rem 6rem;
 
   @media only screen and (max-width: $bp-largest) {
     .blogpost__img {
@@ -33,7 +32,6 @@ main {
     min-height: 50rem;
   }
 }
-
 
 section.page {
   display: flex;
@@ -76,12 +74,12 @@ section.page {
 
       h2 {
         margin-top: 0;
-        margin-bottom: .7rem;
+        margin-bottom: 0.7rem;
         line-height: normal;
       }
 
       h3 {
-        margin-bottom: .5rem;
+        margin-bottom: 0.5rem;
       }
       p.price {
         font-weight: 700;
@@ -91,7 +89,6 @@ section.page {
 
       p.smalltext {
         font-size: 1.4rem;
-
       }
 
       .listing {
@@ -99,11 +96,9 @@ section.page {
         padding-left: 0;
         margin-top: 1.2rem;
 
-
         li {
           line-height: 3rem;
           font-size: 1.6rem;
-
         }
 
         &__icon {
@@ -113,7 +108,6 @@ section.page {
           vertical-align: top;
           margin-right: 1.2rem;
         }
-
       }
     }
   }
